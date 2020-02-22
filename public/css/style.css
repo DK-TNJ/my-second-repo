@@ -1,0 +1,65 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+    /* text-align: left;
+    float: left;
+    margin-right: 0; */
+}
+
+footer{
+    color: #888888;
+    border-top : 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait{
+    width:250px
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
