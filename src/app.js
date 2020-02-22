@@ -1,3 +1,4 @@
+console.log('Hello')
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
@@ -44,6 +45,7 @@ app.get('/weather', (req, res)=>{
                     if(error){
                         return res.send("Error in fetching Weather information")
                     }else{
+                        
                         res.send({
                             title : "Weather",
                             name : 'Dileep Kannan',
